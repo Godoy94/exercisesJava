@@ -23,8 +23,8 @@ public class Exercicio08 {
         int resultadoProduto = valorA * valorC;
         int resultadoSoma = valorB + valorD;
 
-        System.out.print("O Resultado do produto é : " + resultadoProduto);
-        System.out.print("O Resultado da soma é : " + resultadoSoma);
+        System.out.print("O Resultado do produto é: " + resultadoProduto);
+        System.out.print("O Resultado da soma é: " + resultadoSoma);
 
         scanner.close();
     }

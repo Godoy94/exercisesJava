@@ -12,11 +12,11 @@ public class Exercicio03 {
         System.out.print("Digite o valor da Variavel A: ");
         int variavelA = scanner.nextInt();
         int resultado = variavelA * variavelA;
-        System.out.print("O resultado do Quadrado A é : " + resultado);
+        System.out.print("O resultado do Quadrado A é: " + resultado);
         System.out.print("Digite o valor da Variavel B: ");
         int variavelB = scanner.nextInt();
         int resultadoB = variavelB * variavelB;
-        System.out.print("O resultado do Quadrado B é : " + resultadoB);
+        System.out.print("O resultado do Quadrado B é: " + resultadoB);
         if (resultado > resultadoB) {
             System.out.print("O resultado A é Maior que o B: " + resultado);
         } else {

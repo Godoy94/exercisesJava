@@ -16,7 +16,7 @@ public class Exercicio02 {
         float altura = scanner.nextFloat();
 
         float volume = comprimento * largura * altura;
-        System.out.print("O volume da Caixa é : " + volume);
+        System.out.print("O volume da Caixa é: " + volume);
         scanner.close();
     }
 }

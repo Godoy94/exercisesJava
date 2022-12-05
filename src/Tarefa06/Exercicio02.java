@@ -15,7 +15,7 @@ public class Exercicio02 {
         int valor01 = scanner.nextInt();
         if (valor01 < 0) {
             int valor02 = valor01 * (-1);
-            System.out.print("O modulo do Numero informado é : " + valor02);
+            System.out.print("O modulo do Numero informado é: " + valor02);
         }
 
         scanner.close();

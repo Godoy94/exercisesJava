@@ -23,9 +23,9 @@ public class Exercicio03 {
         float nota4 = scanner.nextFloat();
         float mediaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
         if (mediaFinal >= 5) {
-            System.out.print("O aluno Foi Aprovado Com a Media : " + mediaFinal);
+            System.out.print("O aluno Foi Aprovado Com a Media: " + mediaFinal);
         } else {
-            System.out.print("O aluno foi Reprovado Com a Media : " + mediaFinal);
+            System.out.print("O aluno foi Reprovado Com a Media: " + mediaFinal);
         }
 
         scanner.close();

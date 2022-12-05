@@ -14,7 +14,7 @@ public class Exercicio010 {
         System.out.print("Digite o valor do seu salário fixo");
         float salarioFixo = scanner.nextFloat();
 
-        System.out.print("Digite o valor de vendas efetuado pelo usuário :");
+        System.out.print("Digite o valor de vendas efetuado pelo usuário:");
         float valorVendas = scanner.nextFloat();
 
         if (valorVendas < 1501) {

@@ -14,15 +14,15 @@ public class Exercicio011 {
 
         System.out.print("Digite o numero da Conta: ");
         float contaCliente = scanner.nextFloat();
-        System.out.print("Digite o Saldo da Conta - " + contaCliente + " : ");
+        System.out.print("Digite o Saldo da Conta - " + contaCliente + ": ");
         float saldoConta = scanner.nextFloat();
         System.out.print("Digite o Seu Debito: ");
         float debitoConta = scanner.nextFloat();
         System.out.print("Digite o seu credito Disponivel: ");
         float creditoConta = scanner.nextFloat();
         float saldoAtual = (saldoConta - debitoConta) + creditoConta;
-        System.out.print("Cliente : " + contaCliente);
-        System.out.print("Saldo da Conta : R$" + saldoConta);
+        System.out.print("Cliente: " + contaCliente);
+        System.out.print("Saldo da Conta: R$" + saldoConta);
         System.out.print("Debito da Conata: R$" + debitoConta);
         if (saldoAtual >= 0) {
             System.out.print("O saldo da Conta " + contaCliente + " e POSITIVA.");
