@@ -6,7 +6,7 @@ public class ExemploContinueWhile {
                 i++;
                 continue;
             }
-            System.out.println(i);
+            System.out.print(i);
             i++;
         }
     }

@@ -25,9 +25,9 @@ public class Exercicio2 {
         double porcentagemVotosNulos = (votosNulos * 100) / qtdEleitores;
         double porcentagemVotosValidos = (votosValidos * 100) / qtdEleitores;
 
-        System.out.println("\nPorcentagem de votos brancos: " + porcentagemVotosBrancos + "% \n");
-        System.out.println("Porcentagem de votos nulos: " + porcentagemVotosNulos + "% \n");
-        System.out.println("Porcentagem de votos válidos: " + porcentagemVotosValidos + "% ");
+        System.out.print("\nPorcentagem de votos brancos: " + porcentagemVotosBrancos + "% \n");
+        System.out.print("Porcentagem de votos nulos: " + porcentagemVotosNulos + "% \n");
+        System.out.print("Porcentagem de votos válidos: " + porcentagemVotosValidos + "% ");
         ler.close();
     }
 }

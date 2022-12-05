@@ -16,7 +16,7 @@ public class Exercicio7 {
 
         int a = base * altura;
 
-        System.out.println("A área do retângulo é: " + a);
+        System.out.print("A área do retângulo é: " + a);
         ler.close();
     }
 }

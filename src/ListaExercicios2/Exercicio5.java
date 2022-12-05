@@ -14,7 +14,7 @@ public class Exercicio5 {
         double grausCelsius = scanner.nextDouble();
         double conversaoFahrenheit = (9 * grausCelsius + 160) / 5;
 
-        System.out.println("A temperatura em Fahrenheit é: " + conversaoFahrenheit + "ºF");
+        System.out.print("A temperatura em Fahrenheit é: " + conversaoFahrenheit + "ºF");
         scanner.close();
     }
 }

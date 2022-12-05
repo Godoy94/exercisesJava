@@ -17,9 +17,9 @@ public class Exercicio4 {
         double calculoImpostos = valorFabrica / 100 * 73;
         double valorFinal = valorFabrica + calculoImpostos;
 
-        System.out.println("\nO valor de fábrica do veículo é R$ " + valorFabrica);
-        System.out.println("O valor total de impostos sobre o veículo é R$ " + calculoImpostos);
-        System.out.println("O valor final do veículo é R$ " + valorFinal);
+        System.out.print("\nO valor de fábrica do veículo é R$ " + valorFabrica);
+        System.out.print("O valor total de impostos sobre o veículo é R$ " + calculoImpostos);
+        System.out.print("O valor final do veículo é R$ " + valorFinal);
         scanner.close();
     }
 }

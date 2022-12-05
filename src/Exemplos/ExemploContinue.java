@@ -4,7 +4,7 @@ public class ExemploContinue {
             if (i == 4) {
                 continue;
             }
-            System.out.println(i);
+            System.out.print(i);
         }
     }
 }

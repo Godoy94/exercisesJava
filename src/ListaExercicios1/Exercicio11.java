@@ -19,7 +19,7 @@ public class Exercicio11 {
 
         int a = (baseMaior + baseMenor) * altura / 2;
 
-        System.out.println("A área do trapézio é: " + a);
+        System.out.print("A área do trapézio é: " + a);
         ler.close();
     }
 }

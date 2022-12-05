@@ -4,7 +4,7 @@ public class ExemploBreak {
             if (i == 4) {
                 break;
             }
-            System.out.println(i);
+            System.out.print(i);
         }
     }
 }

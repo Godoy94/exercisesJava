@@ -15,7 +15,7 @@ public class Exercicio8 {
         int altura = ler.nextInt();
 
         int a = base * altura / 2;
-        System.out.println("A área do triângulo é: " + a);
+        System.out.print("A área do triângulo é: " + a);
 
         ler.close();
     }

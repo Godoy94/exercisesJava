@@ -22,8 +22,8 @@ public class Exercicio10 {
         A = D;
         B = C;
 
-        System.out.println("O valor de A agora é: " + B);
-        System.out.println("O valor de B agora é: " + A);
+        System.out.print("O valor de A agora é: " + B);
+        System.out.print("O valor de B agora é: " + A);
         scanner.close();
     }
 }

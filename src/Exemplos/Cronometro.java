@@ -16,7 +16,7 @@ public class Cronometro {
         for (int k = horas; k >= 0; k--) {
             for (int i = minutos; i >= 0; i--) {
                 for (int j = segundos; j >= 0; j--) {
-                    System.out.println(k + " : " + i + " : " + j);
+                    System.out.print(k + " : " + i + " : " + j);
                     segundos = 59;
                     minutos = 59;
                 }

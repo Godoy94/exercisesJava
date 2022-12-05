@@ -8,11 +8,11 @@ public class Exercicio2 {
 		// ex2 = Solicite a entrada de um valor do teclado e exiba seu antecessor
 		Scanner ler = new Scanner(System.in);
 
-		System.out.println("Digite um numero: ");
+		System.out.print("Digite um numero: ");
 		int num1 = ler.nextInt();
 		int antecessor = --num1;
 
-		System.out.println("O antecessor do numero digitado é: " + antecessor);
+		System.out.print("O antecessor do numero digitado é: " + antecessor);
 		ler.close();
 	}
 
