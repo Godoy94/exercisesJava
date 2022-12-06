@@ -12,7 +12,7 @@ public class Exercicio10 {
          * apresentar como resultado (quociente) quantas vezes o divisor cabe no
          * dividendo.
          */
-        int numero1, numero2, acumuladora, contadora = 1, soma = 1;
+        int numero1, numero2, acumuladora, contador = 1, soma = 1;
 
         Scanner sc = new Scanner(System.in);
 
@@ -23,8 +23,8 @@ public class Exercicio10 {
 
         do {
             soma++;
-            acumuladora = numero2 * contadora;
-            contadora++;
+            acumuladora = numero2 * contador;
+            contador++;
         } while (acumuladora <= numero1);
         System.out.println(soma);
 

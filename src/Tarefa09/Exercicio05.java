@@ -13,20 +13,20 @@ public class Exercicio05 {
 
         int numero = 0;
         int fatorial = 1;
-        int contadora = 1;
-        int contadora2 = 1;
+        int contador = 1;
+        int contador2 = 1;
         int soma;
         do {
-            System.out.println("Digite o valor numero: " + contadora);
+            System.out.println("Digite o valor numero: " + contador);
             numero = sc.nextInt();
             do {
-                fatorial = fatorial * contadora2;
+                fatorial = fatorial * contador2;
                 soma = fatorial;
-                contadora2++;
-            } while (contadora2 <= numero);
+                contador2++;
+            } while (contador2 <= numero);
             System.out.println(soma);
-            contadora++;
-        } while (contadora <= 15);
+            contador++;
+        } while (contador <= 15);
 
         sc.close();
     }

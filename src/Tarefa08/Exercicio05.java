@@ -1,6 +1,6 @@
 package Tarefa08;
 
-import javax.swing.JOptionPane;
+import javax.swing.*;
 
 public class Exercicio05 {
     public static void main(String[] args) {
